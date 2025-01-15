@@ -1,13 +1,6 @@
 .Listings {
-  margin: 20px;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background-color: #f9f9f9;
-}
-
-.Listings h2 {
-  color: #333;
+  text-align: left;
 }
 
 .Listings ul {
@@ -16,8 +9,7 @@
 }
 
 .Listings li {
+  border: 1px solid #ccc;
   margin: 10px 0;
   padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
 }
