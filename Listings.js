@@ -1,20 +1,20 @@
 import React from 'react';
-import './Listings.css';
 
-const listingsData = [
-  { id: 1, title: 'Lovely House', price: '$300,000' },
-  { id: 2, title: 'Spacious Apartment', price: '$400,000' },
-  { id: 3, title: 'Cozy Cottage', price: '$200,000' }
+const listings = [
+  { id: 1, title: 'Luxury Villa', price: '$1,200,000', description: 'A beautiful luxury villa with pool and ocean view.' },
+  { id: 2, title: 'Modern Apartment', price: '$800,000', description: 'A modern apartment in the city center with great amenities.' },
+  { id: 3, title: 'Cozy Cottage', price: '$400,000', description: 'A cozy cottage in the countryside, perfect for weekend getaways.' }
 ];
 
 function Listings() {
   return (
-    <div className="listings">
+    <div>
       <h2>Property Listings</h2>
       <ul>
-        {listingsData.map(listing => (
+        {listings.map(listing => (
           <li key={listing.id}>
             <h3>{listing.title}</h3>
+            <p>{listing.description}</p>
             <p>Price: {listing.price}</p>
           </li>
         ))}
