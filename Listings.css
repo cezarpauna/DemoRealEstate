@@ -1,9 +1,10 @@
 .listings {
-  color: #555;
+  text-align: left;
+  margin: 20px;
 }
 
 .listings h2 {
-  margin: 20px 0;
+  color: #333;
 }
 
 .listings ul {
@@ -12,8 +13,8 @@
 }
 
 .listings li {
-  margin: 10px 0;
+  background: #f8f8f8;
+  margin-bottom: 10px;
   padding: 10px;
-  background: #f0f0f0;
   border-radius: 5px;
 }
