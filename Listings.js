@@ -2,9 +2,9 @@ import React from 'react';
 
 const Listings = () => {
   const properties = [
-    { id: 1, title: 'Modern Apartment', price: '$1,200/month', location: 'Downtown' },
-    { id: 2, title: 'Cozy Cottage', price: '$800/month', location: 'Suburbs' },
-    { id: 3, title: 'Luxury Villa', price: '$3,000/month', location: 'Beachfront' },
+    { id: 1, title: 'Luxury Villa', price: '$1,200,000', location: 'California' },
+    { id: 2, title: 'Modern Apartment', price: '$800,000', location: 'New York' },
+    { id: 3, title: 'Cozy Cottage', price: '$350,000', location: 'Michigan' } 
   ];
 
   return (
