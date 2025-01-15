@@ -1,16 +1,21 @@
-.Listings {
-  font-family: Arial, sans-serif;
+.listings {
   text-align: left;
   margin: 20px;
 }
 
-.Listings ul {
+.listings h2 {
+  color: #282c34;
+}
+
+.listings ul {
   list-style-type: none;
   padding: 0;
 }
 
-.Listings li {
-  border: 1px solid #ccc;
-  padding: 10px;
+.listings li {
+  background: #f9f9f9;
   margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
