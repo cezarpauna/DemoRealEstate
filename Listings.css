@@ -1,0 +1,16 @@
+.Listings {
+  font-family: Arial, sans-serif;
+  text-align: left;
+  margin: 20px;
+}
+
+.Listings ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Listings li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
