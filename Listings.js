@@ -1,9 +1,9 @@
 import React from 'react';
 
 const listings = [
-  { id: 1, title: 'Lovely Apartment', price: '$1200/month' },
-  { id: 2, title: 'Modern House', price: '$2500/month' },
-  { id: 3, title: 'Cozy Studio', price: '$800/month' }
+  { id: 1, title: 'Luxurious Apartment', price: '$500,000' },
+  { id: 2, title: 'Spacious Villa', price: '$1,200,000' },
+  { id: 3, title: 'Cozy Cottage', price: '$300,000' }
 ];
 
 function Listings() {
