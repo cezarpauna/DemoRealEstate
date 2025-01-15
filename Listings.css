@@ -1,15 +1,16 @@
-.Listings {
-  padding: 20px;
+.listings {
   text-align: left;
+  margin: 20px;
 }
 
-.Listings ul {
+.listings ul {
   list-style-type: none;
   padding: 0;
 }
 
-.Listings li {
-  border: 1px solid #ccc;
+.listings li {
+  background-color: #f8f8f8;
   margin: 10px 0;
   padding: 10px;
+  border: 1px solid #ddd;
 }
