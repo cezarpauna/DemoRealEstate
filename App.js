@@ -10,7 +10,7 @@ function App() {
         <p>Your one-stop solution for real estate needs.</p>
         <button>View Listings</button>
       </header>
-      <Listings />
+      <Listings /> {/* Rendering Listings component */}
     </div>
   );
 }
