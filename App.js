@@ -8,9 +8,8 @@ function App() {
       <header className="App-header">
         <h1>Welcome to Demo Real Estate Agency</h1>
         <p>Your one-stop solution for real estate needs.</p>
-        <button>View Listings</button>
       </header>
-      <Listings />
+      <Listings />  {/* Include Listings component here */}
     </div>
   );
 }
