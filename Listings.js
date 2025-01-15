@@ -1,9 +1,9 @@
 import React from 'react';
 
 const listings = [
-  { id: 1, title: 'Apartment in City Center', price: 120000 },
-  { id: 2, title: 'Cozy Cottage', price: 250000 },
-  { id: 3, title: 'Luxury Villa', price: 750000 }
+  { id: 1, title: 'Luxury Apartment in Downtown', price: '$300,000' },
+  { id: 2, title: 'Cozy Cottage in the Countryside', price: '$150,000' },
+  { id: 3, title: 'Modern Family Home', price: '$250,000' }
 ];
 
 function Listings() {
@@ -11,9 +11,10 @@ function Listings() {
     <div>
       <h2>Property Listings</h2>
       <ul>
-        {listings.map(listing => (
+        {listings.map((listing) => (
           <li key={listing.id}>
-            {listing.title} - ${listing.price}
+            <h3>{listing.title}</h3>
+            <p>Price: {listing.price}</p>
           </li>
         ))}
       </ul>
