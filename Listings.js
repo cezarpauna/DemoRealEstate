@@ -1,12 +1,12 @@
 import React from 'react';
 
 const listings = [
-  { id: 1, title: 'Cozy Cottage', location: 'Lake Tahoe', price: '$350,000' },
-  { id: 2, title: 'Luxury Apartment', location: 'New York', price: '$1,200,000' },
-  { id: 3, title: 'Beach House', location: 'Santa Monica', price: '$850,000' },
+  { id: 1, title: 'Luxury Apartment', price: '$1,200,000', description: 'A beautiful luxury apartment in downtown.' },
+  { id: 2, title: 'Cozy Cottage', price: '$350,000', description: 'A cozy cottage in the countryside.' },
+  { id: 3, title: 'Modern Condo', price: '$750,000', description: 'A modern condo with all amenities.' }
 ];
 
-const Listings = () => {
+function Listings() {
   return (
     <div>
       <h2>Property Listings</h2>
@@ -14,13 +14,13 @@ const Listings = () => {
         {listings.map(listing => (
           <li key={listing.id}>
             <h3>{listing.title}</h3>
-            <p>Location: {listing.location}</p>
+            <p>{listing.description}</p>
             <p>Price: {listing.price}</p>
           </li>
         ))}
       </ul>
     </div>
   );
-};
+}
 
 export default Listings;
