@@ -1,26 +1,22 @@
 import React from 'react';
 
-const listings = [
-  { id: 1, title: 'Luxury Apartment', price: '$300,000', location: 'New York' },
-  { id: 2, title: 'Cozy House', price: '$200,000', location: 'Los Angeles' },
-  { id: 3, title: 'Modern Loft', price: '$250,000', location: 'Chicago' },
-];
+const Listings = () => {
+  const properties = [
+    { id: 1, title: 'Cozy Cottage', price: '$350,000' },
+    { id: 2, title: 'Modern Apartment', price: '$550,000' },
+    { id: 3, title: 'Luxurious Villa', price: '$1,200,000' },
+  ];
 
-function Listings() {
   return (
     <div>
-      <h2>Property Listings</h2>
+      <h2>Available Listings</h2>
       <ul>
-        {listings.map((listing) => (
-          <li key={listing.id}>
-            <h3>{listing.title}</h3>
-            <p>Price: {listing.price}</p>
-            <p>Location: {listing.location}</p>
-          </li>
+        {properties.map(property => (
+          <li key={property.id}>{property.title} - {property.price}</li>
         ))}
       </ul>
     </div>
   );
-}
+};
 
 export default Listings;
