@@ -1,18 +1,1 @@
-import React from 'react';
-import './App.css';
-import Listings from './Listings';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Welcome to Demo Real Estate Agency</h1>
-        <p>Your one-stop solution for real estate needs.</p>
-        <button>View Listings</button>
-      </header>
-      <Listings />
-    </div>
-  );
-}
-
-export default App;
+import React from 'react';\nimport './App.css';\nimport Listings from './Listings';\n\nfunction App() {\n  return (\n    <div className="App">\n      <header className="App-header">\n        <h1>Welcome to Demo Real Estate Agency</h1>\n        <p>Your one-stop solution for real estate needs.</p>\n        <button>View Listings</button>\n      </header>\n      <Listings />\n    </div>\n  );\n}\n\nexport default App;
