@@ -2,9 +2,9 @@ import React from 'react';
 
 const Listings = () => {
   const properties = [
-    { id: 1, title: 'Modern Apartment', price: '$250,000', location: 'New York, NY' },
-    { id: 2, title: 'Cozy Cottage', price: '$150,000', location: 'Austin, TX' },
-    { id: 3, title: 'Luxury Villa', price: '$1,200,000', location: 'Miami, FL' },
+    { id: 1, title: 'Cozy Cottage', price: '$300,000' },
+    { id: 2, title: 'Spacious Apartment', price: '$450,000' },
+    { id: 3, title: 'Luxury Villa', price: '$1,200,000' }
   ];
 
   return (
@@ -13,8 +13,7 @@ const Listings = () => {
       <ul>
         {properties.map(property => (
           <li key={property.id}>
-            <h3>{property.title}</h3>
-            <p>{property.location} - {property.price}</p>
+            {property.title} - {property.price}
           </li>
         ))}
       </ul>
