@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Listings from './Listings'; // Import Listings component
+import Listings from './Listings';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <p>Your one-stop solution for real estate needs.</p>
         <button>View Listings</button>
       </header>
-      <Listings />  {/* Render Listings component */}
+      <Listings />
     </div>
   );
 }
