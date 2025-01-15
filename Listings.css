@@ -1,15 +1,20 @@
-.Listings {
-  margin: 20px;
+.listings {
+  color: #333;
+  text-align: left;
 }
 
-.Listings ul {
+.listings h2 {
+  font-size: 2em;
+}
+
+.listings ul {
   list-style-type: none;
   padding: 0;
 }
 
-.Listings li {
-  background-color: #f7f7f7;
-  padding: 10px;
-  margin: 5px 0;
+.listings li {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
   border-radius: 5px;
 }
