@@ -1,21 +1,15 @@
-.listings {
-  text-align: left;
+.Listings {
   margin: 20px;
 }
 
-.listings h2 {
-  color: #282c34;
-}
-
-.listings ul {
+.Listings ul {
   list-style-type: none;
   padding: 0;
 }
 
-.listings li {
-  background: #f9f9f9;
-  margin: 10px 0;
+.Listings li {
+  background-color: #f7f7f7;
   padding: 10px;
+  margin: 5px 0;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
