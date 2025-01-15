@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Listings from './Listings';
+import Listing from './List';
 
 function App() {
   return (
@@ -9,8 +9,8 @@ function App() {
         <h1>Welcome to Demo Real Estate Agency</h1>
         <p>Your one-stop solution for real estate needs.</p>
         <button>View Listings</button>
+        <Listing />
       </header>
-      <Listings />
     </div>
   );
 }
