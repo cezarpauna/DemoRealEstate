@@ -1,0 +1,21 @@
+.listings {
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.listings h2 {
+  color: #333;
+}
+
+.listings ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.listings li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
